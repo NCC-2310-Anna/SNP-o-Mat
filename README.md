@@ -1,6 +1,6 @@
 # SNP'o-Mat
 
-![RhodoSNP Logo](https://github.com/NCC-2310-Anna/RhodoSNP/blob/main/Readme_files/Logo.svg "SNP'o-Mat")
+![RhodoSNP Logo](https://github.com/NCC-2310-Anna/RhodoSNP/blob/main/Readme_files/Logo.png "SNP'o-Mat")
 
 An all-in-one microbial variant calling and annotation pipeline
 
