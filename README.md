@@ -14,24 +14,24 @@ An all-in-one microbial variant calling and annotation pipeline
 ## Getting started
 
 ```bash
-git clone https://github.com/NCC-2310-Anna/RhodoSNP.git
-cd RhodoSNP/Setup
-mamba env create --name <env name> --file=RhodoSNP_Setup.yml # or conda but that is slower
-# make RhodoSNP executable
-cd RhodoSNP/Pipeline
+git clone https://github.com/NCC-2310-Anna/SNP-o-Mat.git
+cd SNP-o-Mat/Setup
+mamba env create --name <env name> --file=SNP-o-Mat_Setup.yml # or conda but that is slower
+# make SNP-o-Mat executable
+cd SNP-o-Mat/Pipeline
 chmod +x Calling.sh
 ```
 
 You can now run the pipeline with the following command
 ```bash
-path/to/RhodoSNP/Pipeline/Calling.sh -h
+path/to/SNP-o-Mat/Pipeline/Calling.sh -h
 ```
 
 The output should look something like that:
 ```
 Usage: ./Pipeline/Calling.sh -d <project_dir> -r <ref_fasta> [OPTIONS] <-1 READ1 -2 READ2 | -s SINGLE>
 
-A genomics variant calling pipeline wrapper.
+A genomics variant calling pipeline.
 
 Required Options:
   -d <dir>    Output project directory
