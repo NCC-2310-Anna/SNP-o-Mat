@@ -1,4 +1,4 @@
-name: RhodoSNP
+name: SNP-o-Mat
 channels:
   - conda-forge
   - bioconda
